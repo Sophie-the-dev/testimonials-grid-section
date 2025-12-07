@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --lang: Barlow Semi Condensed ;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#f6f5f6;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.grid_container{
+   margin-top: 100px;
+    max-width: 1114px;
+    width:100%;
+    height: 582px;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:auto;
+    gap: 1.5rem 1.5rem;
+    justify-content: center;
+    
+}
+.daniel{
+    border-radius: 8px;
+    padding: 32px;
+    max-width: 540px;
+    width:100%;
+    height: 288px;
+    background-color: #733FC8;
+    grid-column:1/4;
+    grid-row:1/2;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    background-image: url(images/bgpic.png);
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    
+}
+.upperh{
+    width: 120px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width:80px;
+    height:30px;
+}
+.bold{
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 110%;
+    color:white;
+    margin-bottom: 4px;
+}
+.lowerp{
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 110%;
+    color:white;
+}
+.main_info{
+    margin-top: 16px;
+    width:100%;
+    max-width:476px;
+    
+   
+}
+.maintext{
+    font-family: var(--lang);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color:white;
+    height:72px;
+    width:476px;
+    
+}
+.mainp{
+    margin-top: 16px;
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    color:#EDE4FF;
+    height:90px;
+    width:476px;
+    
+}
+.jeanette{
+    border-radius: 8px;
+    padding: 32px;
+    width: 255px;
+    height: 270px;
+    background:white;
+    grid-column:1/2;
+    grid-row:2/3;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+.namejeanette{
+ margin-left: 10px;
+}
+.jeanettep{
+    margin-top: 16px;
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    color:#676D7E;
+}
+.jeanetteh1{
+    margin-top: 16px;
+    width:191px;
+    font-family: var(--lang);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #48556A;
+}
+.upperhjeanette{
+
+    display: flex;
+    width:133px;
+    height:30px;
+}
+.boldj{
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    color:#48556A;
+}
+.lowerpj{
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 110%;
+    color:#676D7E;
+}
+#patrick{
+    height:270px;
+    background-color: #19202D;
+    grid-column:2/5;
+    grid-row:2/3;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+    background-image: none;
+}
+.jonathan{
+    border-radius: 8px;
+    padding: 32px;
+    width: 255px;
+    height: 288px;
+    background-color:#48556A;
+    
+    grid-column:3/5;
+    grid-row:1/2;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+.john1{
+    font-family: var(--lang);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color:white;
+}
+.johnp{
+    margin-top: 16px;
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    color:#E7EAEE;
+}
+.boldjohn{
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 110%;
+    color:white;
+}
+.lowerpjohn{
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 110%;
+    color:#E7EAEE;
+}
+.main_info_john{
+ margin-top: 16px;
+}
+.kira{
+    border-radius: 8px;
+    padding: 32px;
+    max-width: 255px;
+    width:100%;
+    height: 582px;
+    grid-column:4/5;
+    grid-row:1/3;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+}
+.main_info_kira{
+    width:191px;
+    height:466px;
+}
+.maintextkira{
+    margin-top: 16px;
+    font-family: var(--lang);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #48556A;
+    width:191px;
+}
+.mainpkira{
+    margin-top: 16px;
+    width:191px;
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 140%;
+    color:#676D7E;
+}
+.boldk{
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 100%;
+    color:#48556A;
+}
+.lowerpk{
+    font-family: var(--lang);
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 110%;
+    color:#676D7E;
+}
+
+
+@media(max-width:768px){
+   body{
+    height: 1353px;
+   }
+   .grid_container{
+    max-width: 647px;
+    width:100%;
+    height: 1157px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap:1.5rem 1.5rem;
+    justify-content: center;
+   }
+   .daniel{
+    max-width:647px;
+    width:100%;
+    grid-column: 1/3;
+    grid-row: 1/2;
+   }
+   .jeanette{
+    width: 307.5px;
+    height:246px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+   }
+   .jeanetteh1{
+    width:244px;
+   }
+   .jonathan{
+    width: 307.5px;
+    height:246px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+   }
+   #patrick{
+    max-width:647px;
+    width:100%;
+    grid-column: 1/3;
+    grid-row: 3/4;
+   }
+   .kira{
+    border-radius: 8px;
+    padding: 32px;
+    max-width: 647px;
+    width:100%;
+    height: 275px;
+    grid-column:1/3;
+    grid-row: 4/5;
+   }
+   .main_info_kira{
+    max-width:583px;
+    width:100%
+   }
+   .maintextkira{
+    max-width:583px;
+    width:100%;
+    height:24px;
+   }
+   .mainpkira{
+    height:126px;
+    max-width:583px;
+    width:100%;
+   }
+}
+@media(max-width:375px){
+ .grid_container{
+    height: 1967px;
+    margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+ }
+ .daniel{
+    padding: 32px;
+    width: 305px;
+    height: 450px;
+    background-image: none;
+ }
+ .jeanette{
+    padding: 32px;
+    width: 305px;
+    height: 246px;
+ }
+ .jonathan{
+    padding: 32px;
+    width: 305px;
+    height: 246px;
+ }
+ #patrick{
+    padding: 32px;
+    width: 305px;
+    height: 414px;
+ }
+ .kira{
+    padding: 32px;
+    width: 305px;
+    height: 503px;
+ }
+ .maintext{
+    width:241px;
+    height:144px;
+ }
+ .mainp{
+    width:241px;
+    height:180px;
+ }
+ .jeanetteh1{
+    width:241px;
+    height:48px;
+ }
+ .jeanettep{
+    height:54px;
+    width:241px;
+ }
+ .john1{
+    width:241px;
+    height:48px;
+ }
+ .johnp{
+    height:72px;
+    width:241px;
+ }
+ .maintextkira{
+    height:72px;
+    width:241px;
+ }
+ .mainpkira{
+    width:241px;
+    height:306px;
+ }
+}
